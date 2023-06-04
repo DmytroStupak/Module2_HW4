@@ -1,7 +1,12 @@
-﻿internal class Program
+﻿using System;
+
+namespace Modul2HW4
 {
-    private static void Main(string[] args)
+    public class Program
     {
-        System.Console.WriteLine();
+        public static void Main(string[] args)
+        {
+            Starter.Run();
+        }
     }
 }
